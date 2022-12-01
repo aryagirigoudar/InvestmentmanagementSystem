@@ -1,0 +1,54 @@
+*{
+  margin: 5px;
+}
+.App {
+  text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+th{
+  background-color: #77ffff;
+  
+}
+td{
+  background-color: #ff9e9a;
+  
+}
+.App-header {
+  background-color: #77ffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  /* background-color: rgb(151, 10, 10); */
+  background-color: #77ffff;
+  margin-bottom: 50px;
+}
+
+
+
+li a {
+  display: inline-block;
+  color: black;
+  /* color: white; */
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+
+
