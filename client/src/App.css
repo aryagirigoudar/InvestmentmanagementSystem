@@ -1,5 +1,5 @@
 *{
-  margin: 5px;
+  margin: 0px;
 }
 .App {
   text-align: center;
@@ -10,16 +10,9 @@ table{
   
 }
 
-th{
-  background-color: #77ffff;
-  
-}
-td{
-  background-color: #ff9e9a;
-  
-}
+
 .App-header {
-  background-color: #77ffff;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,26 +22,46 @@ td{
   color: white;
 }
 
+.App-link {
+  color: #61dafb;
+}
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 ul {
   list-style-type: none;
   display: flex;
-  /* background-color: rgb(151, 10, 10); */
-  background-color: #77ffff;
+  background-color: #333333;
   margin-bottom: 50px;
+}
+button{
+  background-color: #333333;
+
 }
 
 
-
-li a {
+li a ,button{
   display: inline-block;
-  color: black;
-  /* color: white; */
+  color: white;
   padding: 20px;
   text-align: center;
   text-decoration: none;
- 
+  border-radius: 100px;
 }
-
-
+li a:hover
+{
+  
+    background-color: #111111;
+  
+}
+table {
+  width: 60%;
+  
+}
 
